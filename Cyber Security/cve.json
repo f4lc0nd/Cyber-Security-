@@ -1,0 +1,14 @@
+[
+  {"name": "nvd nist", "url": "https://nvd.nist.gov/"},
+  {"name": "exploit db", "url": "https://www.exploit-db.com/"},
+  {"name": "msrc", "url": "https://msrc.microsoft.com/"},
+  {"name": "ubuntu", "url": "https://ubuntu.com/security/notices"},
+  {"name": "advisories", "url": "https://github.com/advisories"},
+  {"name": "vulners", "url": "https://vulners.com/"},
+  {"name": "owasp", "url": "https://owasp.org/"},
+  {"name": "kb cert", "url": "https://www.kb.cert.org/vuls/"},
+  {"name": "cisa", "url": "https://www.cisa.gov/"},
+  {"name": "security snyk", "url": "https://security.snyk.io/"},
+  {"name": "redhat", "url": "https://access.redhat.com/security/"},
+  {"name": "cve mitre", "url": "https://cve.mitre.org/"}
+  ]
