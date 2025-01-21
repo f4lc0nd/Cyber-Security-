@@ -26,7 +26,8 @@
   {
     "name": "Hack-Tools",
     "description": "Hack-Tools is a browser extension that provides a collection of payloads, commands, and tools for security testing. It includes features like reverse shell generation, XSS payloads, SQLi payloads, hash generation, and more.",
-    "available_for": ["Chrome", "Firefox"]
+    "available_for": ["Chrome", "Firefox"],
+    "website":"https://chromewebstore.google.com/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi"
   },
   {
     "name": "Shodan",
