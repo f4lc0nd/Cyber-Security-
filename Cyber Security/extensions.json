@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Foxyproxy Standard",
+    "description": "Foxyproxy Standard is a browser extension that simplifies connecting to proxy servers. It acts as a proxy agent between the client and the proxy server, allowing users to manage and switch proxies effortlessly.",
+    "available_for": ["Chrome", "Firefox"],
+    "website": "https://getfoxyproxy.org/"
+  },
+  {
+    "name": "Multi-Account Containers",
+    "description": "This Firefox extension allows users to separate their online activities into color-coded tabs. Each container isolates cookies, enabling the use of multiple accounts on the same site. It also integrates with Mozilla VPN for enhanced privacy.",
+    "available_for": ["Firefox"],
+    "website": "https://support.mozilla.org/en-US/kb/containers"
+  },
+  {
+    "name": "Pwnfox",
+    "description": "Pwnfox is a Firefox extension that combines the functionalities of Foxyproxy and Multi-Account Containers. It also provides advanced tools for security auditing, such as PostMessage Logger, Toolbox Injection, and Security Header Remover.",
+    "available_for": ["Firefox"],
+    "source_code": "https://github.com/yeswehack/pwnfox"
+  },
+  {
+    "name": "HackBar V2",
+    "description": "HackBar is a security audit tool designed for penetration testing. It simplifies tasks like SQL injection, XSS testing, fuzz testing, hash generation, and encoding. It includes features like LiveHTTPHeader, Tamper Data, and Admin Finder.",
+    "available_for": ["Chrome", "Firefox"],
+    "source_code": "https://github.com/0Xnanoboy/HackBarPro-MOD"
+  },
+  {
+    "name": "Hack-Tools",
+    "description": "Hack-Tools is a browser extension that provides a collection of payloads, commands, and tools for security testing. It includes features like reverse shell generation, XSS payloads, SQLi payloads, hash generation, and more.",
+    "available_for": ["Chrome", "Firefox"]
+  },
+  {
+    "name": "Shodan",
+    "description": "The Shodan plugin provides information about a website's hosting location, IP ownership, and open services/ports. It automatically checks if Shodan has data on the current website and displays details like FTP, DNS, or SSH services.",
+    "available_for": ["Chrome", "Firefox"],
+    "website": "https://www.shodan.io/"
+  },
+  {
+    "name": "uBlock Origin",
+    "description": "uBlock Origin is a free and open-source content blocker with a focus on efficiency. It blocks ads, trackers, and malicious URLs using filter lists like EasyList, EasyPrivacy, and Online Malicious URL Blocklist.",
+    "available_for": ["Chrome", "Firefox"],
+    "website": "https://ublockorigin.com/"
+  },
+  {
+    "name": "Wappalyzer",
+    "description": "Wappalyzer identifies the technology stack of any website. It helps with lead generation, market analysis, and competitor research by listing websites that use specific technologies.",
+    "available_for": ["Chrome", "Firefox"],
+    "website": "https://www.wappalyzer.com/"
+  },
+  {
+    "name": "WhatCms",
+    "description": "WhatCms is a CMS (Content Management System) detector that identifies the type of CMS used by a website.",
+    "available_for": ["Chrome", "Firefox"],
+    "website": "https://whatcms.org/"
+  },
+  {
+    "name": "Cookie Editor",
+    "description": "Cookie-Editor is a simple tool for managing cookies. It is ideal for developing, testing, and manually managing cookies for privacy purposes.",
+    "available_for": ["Chrome", "Firefox"]
+  },
+  {
+    "name": "DotGit",
+    "description": "DotGit checks if .git, .svn, or .hg folders are exposed on visited websites. It also checks for .env files, open-source repositories, and security.txt files. It notifies users when exposed folders are found and allows downloading .git folders.",
+    "available_for": ["Chrome", "Firefox"],
+    "source_code": "https://github.com/davtur19/DotGit"
+  },
+  {
+    "name": "Note Anywhere",
+    "description": "Note Anywhere is a simple note-taking extension that functions like a notepad. It is available as 'Note Anywhere' in Chrome and 'OurStickys' in Firefox.",
+    "available_for": ["Chrome", "Firefox"]
+  },
+  {
+    "name": "Hunter — Email Finder Extension",
+    "description": "Hunter helps find email addresses from any website. It provides verified email addresses or confidence scores for unverified ones. Users can verify emails directly from the extension.",
+    "available_for": ["Chrome", "Firefox"],
+    "website": "https://hunter.io/"
+  },
+  {
+    "name": "retire.js",
+    "description": "retire.js scans web applications for the use of vulnerable JavaScript libraries. It helps detect outdated or insecure versions of libraries.",
+    "available_for": ["Chrome", "Firefox"],
+    "website": "https://retirejs.github.io/retire.js/"
+  },
+  {
+    "name": "Blackbox — Select. Copy. Paste & Search",
+    "description": "Blackbox is a tool for extracting text from videos and images. It also allows users to search for code snippets from platforms like Jupyter or Paperspace.",
+    "available_for": ["Chrome", "Firefox"],
+    "website": "https://www.blackbox.ai/"
+  }
+]
