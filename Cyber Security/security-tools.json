@@ -3,22 +3,36 @@
     {
       "id": "subfinder",
       "name": "Subfinder",
-      "description": "Subdomain enumeration tool",
+      "description": "Fast passive subdomain enumeration tool",
       "category": "reconnaissance",
-      "command": "subfinder -d {domain} -o subdomains.txt"
-    },
-    {
-      "id": "httpx",
-      "name": "httpx",
-      "description": "Probe for HTTP/HTTPS servers",
-      "category": "reconnaissance",
-      "command": "httpx -l subdomains.txt -o alive.txt"
+      "command": "subfinder -d {domain} -o subdomains.txt",
+      "url": "https://github.com/projectdiscovery/subfinder",
+      "documentation": "https://github.com/projectdiscovery/subfinder#readme",
+      "tags": ["subdomain", "enumeration", "passive"],
+      "difficulty": "beginner",
+      "platform": ["linux", "mac", "windows"]
     },
     {
       "id": "nuclei",
       "name": "Nuclei",
       "description": "Vulnerability scanner",
       "category": "vulnerability-scanning",
-      "command": "nuclei -l alive.txt -o vulnerabilities.txt"
-    }]
+      "command": "nuclei -l alive.txt -o vulnerabilities.txt",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "documentation": "https://docs.nuclei.sh",
+      "tags": ["vulnerability", "scanner", "templates"],
+      "difficulty": "intermediate",
+      "platform": ["linux", "mac", "windows"]
+    }
+  ],
+  "categories": {
+    "reconnaissance": {
+      "description": "Tools for information gathering",
+      "icon": "search"
+    },
+    "vulnerability-scanning": {
+      "description": "Tools for finding security vulnerabilities",
+      "icon": "shield"
+    }
+  }
 }
