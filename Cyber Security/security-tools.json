@@ -337,6 +337,26 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "arjun",
+      "name": "Arjun",
+      "description": "HTTP parameter discovery suite.",
+      "category": "content-discovery",
+      "command": "arjun -u https://api.example.com/endpoint",
+      "url": "https://github.com/s0md3v/Arjun",
+      "documentation": "https://github.com/s0md3v/Arjun#",
+      "tags": [
+        "http parametrs",
+        "scanner",
+        "reconnaissance"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
