@@ -8,9 +8,17 @@
       "command": "subfinder -d {domain} -o subdomains.txt",
       "url": "https://github.com/projectdiscovery/subfinder",
       "documentation": "https://github.com/projectdiscovery/subfinder#readme",
-      "tags": ["subdomain", "enumeration", "passive"],
+      "tags": [
+        "subdomain",
+        "enumeration",
+        "passive"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "nmap",
@@ -20,9 +28,17 @@
       "command": "nmap -sV -p 1-65535 {target}",
       "url": "https://nmap.org/",
       "documentation": "https://nmap.org/book/man.html",
-      "tags": ["network", "scanning", "enumeration"],
+      "tags": [
+        "network",
+        "scanning",
+        "enumeration"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "dirsearch",
@@ -32,9 +48,17 @@
       "command": "dirsearch -u {url} -e *",
       "url": "https://github.com/maurosoria/dirsearch",
       "documentation": "https://github.com/maurosoria/dirsearch/wiki",
-      "tags": ["web", "directory", "brute-force"],
+      "tags": [
+        "web",
+        "directory",
+        "brute-force"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "sqlmap",
@@ -44,9 +68,17 @@
       "command": "sqlmap -u {url} --risk=3 --level=5",
       "url": "http://sqlmap.org/",
       "documentation": "https://github.com/sqlmapproject/sqlmap/wiki",
-      "tags": ["sql-injection", "database", "exploitation"],
+      "tags": [
+        "sql-injection",
+        "database",
+        "exploitation"
+      ],
       "difficulty": "advanced",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "burpsuite",
@@ -56,9 +88,17 @@
       "command": "N/A (GUI-based tool)",
       "url": "https://portswigger.net/burp",
       "documentation": "https://portswigger.net/burp/documentation",
-      "tags": ["web", "proxy", "vulnerability-scanning"],
+      "tags": [
+        "web",
+        "proxy",
+        "vulnerability-scanning"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "metasploit",
@@ -68,9 +108,17 @@
       "command": "msfconsole",
       "url": "https://www.metasploit.com/",
       "documentation": "https://docs.rapid7.com/metasploit/",
-      "tags": ["exploitation", "payload", "framework"],
+      "tags": [
+        "exploitation",
+        "payload",
+        "framework"
+      ],
       "difficulty": "advanced",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "ffuf",
@@ -80,9 +128,17 @@
       "command": "ffuf -w wordlist.txt -u {url}/FUZZ",
       "url": "https://github.com/ffuf/ffuf",
       "documentation": "https://github.com/ffuf/ffuf#usage",
-      "tags": ["web", "fuzzing", "enumeration"],
+      "tags": [
+        "web",
+        "fuzzing",
+        "enumeration"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "gobuster",
@@ -92,9 +148,17 @@
       "command": "gobuster dir -u {url} -w wordlist.txt",
       "url": "https://github.com/OJ/gobuster",
       "documentation": "https://github.com/OJ/gobuster/wiki",
-      "tags": ["web", "directory", "dns"],
+      "tags": [
+        "web",
+        "directory",
+        "dns"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "wpscan",
@@ -104,9 +168,17 @@
       "command": "wpscan --url {url}",
       "url": "https://wpscan.com/",
       "documentation": "https://github.com/wpscanteam/wpscan/wiki",
-      "tags": ["wordpress", "vulnerability", "scanning"],
+      "tags": [
+        "wordpress",
+        "vulnerability",
+        "scanning"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "nikto",
@@ -116,9 +188,17 @@
       "command": "nikto -h {url}",
       "url": "https://github.com/sullo/nikto",
       "documentation": "https://github.com/sullo/nikto/wiki",
-      "tags": ["web", "vulnerability", "scanning"],
+      "tags": [
+        "web",
+        "vulnerability",
+        "scanning"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "amass",
@@ -128,9 +208,17 @@
       "command": "amass enum -d {domain}",
       "url": "https://github.com/OWASP/Amass",
       "documentation": "https://github.com/OWASP/Amass/blob/master/doc/user_guide.md",
-      "tags": ["dns", "enumeration", "mapping"],
+      "tags": [
+        "dns",
+        "enumeration",
+        "mapping"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "hydra",
@@ -140,9 +228,17 @@
       "command": "hydra -l {username} -P wordlist.txt {target} {protocol}",
       "url": "https://github.com/vanhauser-thc/thc-hydra",
       "documentation": "https://github.com/vanhauser-thc/thc-hydra/wiki",
-      "tags": ["password", "cracking", "brute-force"],
+      "tags": [
+        "password",
+        "cracking",
+        "brute-force"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "john",
@@ -152,9 +248,17 @@
       "command": "john --wordlist=wordlist.txt hash.txt",
       "url": "https://www.openwall.com/john/",
       "documentation": "https://www.openwall.com/john/doc/",
-      "tags": ["password", "cracking", "hash"],
+      "tags": [
+        "password",
+        "cracking",
+        "hash"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "wireshark",
@@ -164,9 +268,17 @@
       "command": "N/A (GUI-based tool)",
       "url": "https://www.wireshark.org/",
       "documentation": "https://www.wireshark.org/docs/",
-      "tags": ["network", "packet", "analysis"],
+      "tags": [
+        "network",
+        "packet",
+        "analysis"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "zap",
@@ -176,35 +288,36 @@
       "command": "N/A (GUI-based tool)",
       "url": "https://www.zaproxy.org/",
       "documentation": "https://www.zaproxy.org/docs/",
-      "tags": ["web", "vulnerability", "scanning"],
+      "tags": [
+        "web",
+        "vulnerability",
+        "scanning"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
+      "id": "sudomy",
+      "name": "Sudomy",
+      "description": "Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting",
+      "category": "reconnaissance",
+      "command": "sudomy -d bugcrowd.com -dP -eP -rS -cF -pS -tO -gW --httpx --dnsprobe  -aI webanalyze -sS",
+      "url": "https://github.com/screetsec/Sudomy",
+      "documentation": "https://github.com/screetsec/Sudomy#sudomy",
+      "tags": [
+        "scanner",
+        "subdomain enumeration"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "mac",
+        "linux",
+        "windows"
+      ]
     }
-],
-  "categories": {
-    "reconnaissance": {
-      "description": "Tools for information gathering",
-      "icon": "search"
-    },
-    "vulnerability-scanning": {
-      "description": "Tools for finding security vulnerabilities", 
-      "icon": "shield"
-    },
-    "content-discovery": {
-      "description": "Tools for finding hidden content",
-      "icon": "folder"
-    },
-    "exploitation": {
-      "description": "Tools for exploiting vulnerabilities",
-      "icon": "zap"
-    },
-    "post-exploitation": {
-      "description": "Tools for post-exploitation tasks",
-      "icon": "key"
-    },
-    "reporting": {
-      "description": "Tools for report generation",
-      "icon": "file-text"
-    }
-  }
+  ]
 }
