@@ -1,0 +1,24 @@
+{
+  "tools": [
+    {
+      "id": "subfinder",
+      "name": "Subfinder",
+      "description": "Subdomain enumeration tool",
+      "category": "reconnaissance",
+      "command": "subfinder -d {domain} -o subdomains.txt"
+    },
+    {
+      "id": "httpx",
+      "name": "httpx",
+      "description": "Probe for HTTP/HTTPS servers",
+      "category": "reconnaissance",
+      "command": "httpx -l subdomains.txt -o alive.txt"
+    },
+    {
+      "id": "nuclei",
+      "name": "Nuclei",
+      "description": "Vulnerability scanner",
+      "category": "vulnerability-scanning",
+      "command": "nuclei -l alive.txt -o vulnerabilities.txt"
+    }]
+}
